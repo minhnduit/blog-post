@@ -52,7 +52,7 @@ app.use(passport.initialize());
 app.use(passport.session());
 app.use(cookieParser());
 // app.use(csrf());
-mongoose.connect("mongodb://localhost:27017/injection", {useNewUrlParser: true});
+mongoose.connect("mongodb+srv://minh93nan:minhvt23@cluster0.qapa9.mongodb.net/myFirstDatabase?retryWrites=true&w=majority", {useNewUrlParser: true});
 
 
 
