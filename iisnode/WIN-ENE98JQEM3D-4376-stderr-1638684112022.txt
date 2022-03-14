@@ -1,0 +1,21 @@
+(node:4376) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+TypeError: C:\inetpub\wwwroot\inSecLab2\views\homeblog.ejs:102
+    100| <!-- post ends -->
+    101| 
+ >> 102| <%  posts.forEach(function(post){ %>
+    103| 
+    104|  
+    105|     <div class="post__top">
+
+posts.forEach is not a function
+    at eval ("C:\\inetpub\\wwwroot\\inSecLab2\\views\\homeblog.ejs":15:15)
+    at homeblog (C:\inetpub\wwwroot\inSecLab2\node_modules\ejs\lib\ejs.js:692:17)
+    at tryHandleCache (C:\inetpub\wwwroot\inSecLab2\node_modules\ejs\lib\ejs.js:272:36)
+    at View.exports.renderFile [as engine] (C:\inetpub\wwwroot\inSecLab2\node_modules\ejs\lib\ejs.js:489:10)
+    at View.render (C:\inetpub\wwwroot\inSecLab2\node_modules\express\lib\view.js:135:8)
+    at tryRender (C:\inetpub\wwwroot\inSecLab2\node_modules\express\lib\application.js:640:10)
+    at Function.render (C:\inetpub\wwwroot\inSecLab2\node_modules\express\lib\application.js:592:3)
+    at ServerResponse.render (C:\inetpub\wwwroot\inSecLab2\node_modules\express\lib\response.js:1012:7)
+    at C:\inetpub\wwwroot\inSecLab2\server.js:167:7
+    at C:\inetpub\wwwroot\inSecLab2\node_modules\mongoose\lib\model.js:4933:18

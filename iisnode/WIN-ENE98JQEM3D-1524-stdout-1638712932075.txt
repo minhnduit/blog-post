@@ -1,0 +1,52 @@
+{
+  _id: new ObjectId("61acc68548ec3d21a9e74e1b"),
+  userID: '4790890665',
+  username: 'minh23@gmail.com',
+  __v: 0
+}
+{ userID: '4790890665', email: 'minh23@gmail.com' }
+{
+  _id: new ObjectId("61acc68548ec3d21a9e74e1b"),
+  userID: '4790890665',
+  username: 'minh23@gmail.com',
+  __v: 0
+}
+{ userID: '4790890665', email: 'minh23@gmail.com' }
+{
+  _id: new ObjectId("61acc68548ec3d21a9e74e1b"),
+  userID: '4790890665',
+  username: 'minh23@gmail.com',
+  __v: 0
+}
+{ userID: '4790890665', email: 'minh23@gmail.com' }
+moonnnnnn
+/moonnnnnn/
+querry sucess!
+[
+  {
+    user: { userID: '4790890665', email: 'minh23@gmail.com' },
+    _id: new ObjectId("61acc69948ec3d21a9e74e23"),
+    postID: '3729196541',
+    content: 'Bitcoin to the moonnnnnn!!!!',
+    comment: [],
+    report: [],
+    __v: 0
+  },
+  {
+    user: { userID: '4790890665', email: 'minh23@gmail.com' },
+    _id: new ObjectId("61acc6a248ec3d21a9e74e29"),
+    postID: '3828749821',
+    content: 'DBZ to the moonnnnnn!!!!',
+    comment: [],
+    report: [],
+    __v: 0
+  }
+]
+minh23@gmail.com
+3729196541
+448302709
+448302709
+448302709
+448302709
+3828749821
+ DBZ red all the wayyyy!!
