@@ -519,7 +519,7 @@ app.post("/search", function(req, res) {
 
 
 // ------------------------------------------
-app.listen(3000, function () {
+app.listen(process.env.PORT || 3000, function () {
     console.log("connected successfully!! u r in port 3000!"); })
 
 //  app.listen(process.env.PORT);
